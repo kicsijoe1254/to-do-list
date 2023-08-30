@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: rgb(204, 144, 48);
+}
+
+.typer-container {
+    width: 75vw;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.position{
+    margin: 5% auto 20px auto;
+}
+
+.text-container {
+    background-color:  rgb(164, 108, 18);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.input-container{
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+}
+
+.typer {
+    width: 75%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(234, 173, 75);
+    outline: none;
+}
+
+.add-button {
+    background-color:  rgb(164, 108, 18);
+    width: 8em;
+    padding: 0.2em;
+    border: .1em rgb(164, 108, 18) solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.list-container {
+    background-color: rgb(234, 173, 75);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+}
+
+.item p {
+    border-bottom: .1em rgb(164, 108, 18) solid;
+}
+
+.rmv-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remove-button {
+    margin: 1em 0 1em 1em;
+    background-color:  rgb(164, 108, 18);
+    /* margin-top: 25px; */
+    width: 8em;
+    height: 2em;
+    padding: 0.2em;
+    border: none;
+    border-radius: 5px;
+}
+
+#added-todo {
+    width: 75%;
+}
+
+.remove-button:hover {
+    border: .1em rgb(234, 173, 75) solid;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    border: .1em rgb(234, 173, 75) solid;
+    cursor: pointer;
+}
+
+.item-done {
+    text-decoration: line-through;
+}
